@@ -214,7 +214,7 @@ python run_initial_cooperation_bias_experiment.py
 python run_cooperation_bonus_ablation.py
 ```
 
-`run_component_ablations.py` evaluates the removal of future-return learning by comparing the full models with the \(\gamma=0\) condition.
+`run_component_ablations.py` evaluates the removal of future-return learning by comparing the full models with the γ condition.
 
 `run_switch_learning_ablation.py` evaluates the effect of disabling learned partner switching in the Hybrid model.
 
