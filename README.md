@@ -99,6 +99,31 @@ m = {0.00, 0.30, 0.50, 0.70, 1.00}
 
 Parameter-sensitivity experiments generally compare the Baseline and Hybrid models at m=0 and m=1.
 
+## Installation and Setup
+
+The code requires Python 3.
+
+Install the required Python packages using:
+
+    pip install numpy pandas scipy matplotlib numba
+
+The main dependencies are:
+
+- NumPy
+- pandas
+- SciPy
+- Matplotlib
+- Numba
+
+After installing the dependencies, place the Python scripts in the same
+project directory.
+
+Experiments can then be run using the corresponding `run_*.py` scripts.
+
+Some experiments are computationally intensive, particularly those using
+larger population sizes or longer training horizons. Numba JIT compilation
+is used to reduce simulation runtime.
+
 ## Running the Code
 
 The main experiment can be run using:
